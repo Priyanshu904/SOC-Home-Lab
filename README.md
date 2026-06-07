@@ -54,6 +54,7 @@ Attack Vector:
 | Automated SSH Brute Force | Hydra | 10 password attempts against root account | Rules 2582, 5760 | 10, 5 |
 
 **MITRE ATT&CK Mapping**: Hydra attack automatically mapped to **T1110** (Brute Force) and **T1110.001** (Password Guessing)
+**Compliance Tags**: PCI DSS, HIPAA, NIST 800-53, GDPR — automatically applied by Wazuh on brute force alerts
 
 ## Key Findings
 
