@@ -64,18 +64,17 @@ Attack Vector:
 - **SCA Value**: Compliance scanning ran automatically and identified areas where the host deviated from CIS benchmarks—useful for hardening.
 
 ## Screenshots
-
 ### Wazuh Dashboard - Alert Overview
-[screenshot1: Main dashboard showing 285 hits and attack timeline]
+![Dashboard Overview](screenshots/attack1_nmap_dashboard.png)
 
 ### SSH Brute Force Detection
-[screenshot2: Alert table with rules 5710/5712 for SSH attempts]
-
-### Nmap Port Scan Alert
-[screenshot3: Rule 533 fired with port scan details]
+![SSH Brute Force](screenshots/attack2_ssh_bruteforce.png)
 
 ### Automated Attack Output (Hydra)
-[screenshot4: Terminal showing Hydra execution and password attempts]
+![Hydra Terminal](screenshots/attack3_hydra_vector.png)
+
+### Hydra Alert Evidence
+![Hydra Evidence](screenshots/attack3_hydra_evidence.png)
 
 ## Tools & Technologies Used
 
